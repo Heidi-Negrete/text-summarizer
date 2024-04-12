@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Text Summarizer</title>
+		<link rel="stylesheet" href="stylesheet.css" />
+	</head>
+	<body>
+		<h1>AI Text Summarizer</h1>
+		<p>
+			Paste your text into the area below and receive a summary, powered by AI.
+		</p>
+		<div class="container">
+			<div class="text_box">
+				<textarea
+					name="text_to_summarize"
+					id="text_to_summarize"
+					placeholder="Paste your text here. (Min length is 200 chars. Max length is 100,000 chars.)"
+					maxlength="100000"
+				></textarea>
+				<button id="submit_button" class="submit_button">
+					<span class="submit_button_text">Summarize</span>
+				</button>
+			</div>
+			<div class="text_box">
+				<textarea
+					name="summarized_text"
+					id="summary"
+					placeholder="Summarized text will appear here."
+				></textarea>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
