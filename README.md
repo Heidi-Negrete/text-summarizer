@@ -1,5 +1,7 @@
 Input text and receive an AI-powered summary
 
+![ai text summarizer application](./aitextsummarizer.gif)
+
 ## References
 
 This application was inspired by a project-based learning [course](https://academy.postman.com/project-ai-text-summarizer) by Postman that utilizes Node.js, Express, and Replit - but I thought it would be fun to take the idea and run with it using Python in a local environment.  
