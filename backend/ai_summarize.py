@@ -15,7 +15,7 @@ secret = os.getenv("BEARER_TOKEN")
 async def summarize_text(text: str):
     try:
         payload = json.dumps({"inputs": text, "parameters": {
-            "max_length": 100, "min_length": 30}})
+            "max_length": 1000, "min_length": 30}})
         headers = {
             'Content-Type': 'application/json',
             'Authorization': f'Bearer {secret}'
